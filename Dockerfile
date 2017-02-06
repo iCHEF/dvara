@@ -3,3 +3,4 @@ ENV GOBIN=/usr/bin
 RUN go get github.com/facebookgo/dvara/cmd/dvara
 ENTRYPOINT ["dvara"]
 CMD ["--help"]
+EXPOSE 27017
